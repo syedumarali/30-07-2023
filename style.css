@@ -1,0 +1,64 @@
+p {
+    font-weight: bold;
+    font-style: italic;
+    text-transform: capitalize;
+    /* text-decoration: line-through; */
+    /* line-height: 50px; */
+    /* word-spacing: 50px; */
+    /* letter-spacing: 20px; */
+    text-align: justify;
+  }
+  
+  h1 {
+    font-style: italic;
+    text-shadow: 1px 1px 1px red;
+  }
+  
+  h1::first-letter {
+    color: green;
+    font-size: 50px;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  .text {
+    text-indent: 50px;
+  }
+  
+  /* p:first-line {
+    color: red;
+  } */
+  
+  a:link {
+    color: pink;
+  }
+  
+  a:visited {
+    color: orange;
+  }
+  
+  h1:hover {
+    color: pink;
+  }
+  
+  button:active {
+    background-color: orange;
+  }
+  
+  input:focus {
+    background-color: brown;
+  }
+  
+  /* p[class="dog"] {
+    color: red;
+  } */
+  
+  p.dog {
+    color: blue;
+  }
+  
+  .heading {
+    color: red;
+  }
